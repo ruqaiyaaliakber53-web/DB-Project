@@ -6,7 +6,7 @@ Only SERVER normally needs changing: use EXACTLY what SSMS shows in its
 import os
 
 # --- SQL Server connection -------------------------------------------------
-SERVER = os.environ.get("HQ_SERVER", r".\SQLSERVER1")   # "." means this laptop; SQLSERVER1 = your instance name
+SERVER = os.environ.get("HQ_SERVER", r"localhost\SQLEXPRESS")  # "." means this laptop; SQLSERVER1 = your instance name
 DATABASE = "HamQadam"
 
 # True  -> Windows login (works if you clicked "Add Current User" during install)
