@@ -9,8 +9,9 @@ How the app is organised
   * Page classes: one per screen. Each reads/writes the database through self.db.
 Run with:   python main.py
 """
+#gfhrjg
 import datetime
-import sys
+import sys 
 
 from PyQt6.QtCore import QDate, Qt, QTime
 from PyQt6.QtWidgets import (
